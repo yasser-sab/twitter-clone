@@ -1,0 +1,28 @@
+
+.title {
+    text-align: center;
+}
+
+.form {
+    position: relative;
+    max-width: 50%;
+    margin: 0 auto;
+    visibility: hidden;
+}
+
+.form input,textarea {
+    width: 100%;
+}
+
+.loading {
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.active {
+    visibility: visible;
+}
